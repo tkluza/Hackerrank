@@ -1,4 +1,4 @@
-package com.tkluza.hackerrank.tasks.arrays;
+package com.tkluza.hackerrank.tasks.array;
 
 import com.tkluza.hackerrank.tasks.AbstractTask;
 
@@ -53,7 +53,6 @@ public class ArrayDS extends AbstractTask {
         int f = arr[i + 2][j + 1];
         int g = arr[i + 2][j + 2];
 
-        System.out.println();
         return a + b + c + d + e + f + g;
     }
 

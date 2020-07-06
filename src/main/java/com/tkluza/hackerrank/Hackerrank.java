@@ -10,7 +10,10 @@ public class Hackerrank {
 
     public static void main(String[] args) {
 
-        List<Task> allTasks = TaskFactory.getAllTasks();
-        allTasks.forEach(Task::test);
+        List<Task> warmUpTasks = TaskFactory.getAllWarmUpTasks();
+        warmUpTasks.forEach(Task::test);
+
+        List<Task> arrayTasks = TaskFactory.getAllArrayTasks();
+        arrayTasks.forEach(Task::test);
     }
 }
