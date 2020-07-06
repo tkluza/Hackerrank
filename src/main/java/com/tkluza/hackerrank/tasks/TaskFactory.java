@@ -1,6 +1,4 @@
-package tasks;
-
-import tasks.arrays.ArrayDS;
+package com.tkluza.hackerrank.tasks;
 
 import java.util.ArrayList;
 import java.util.List;

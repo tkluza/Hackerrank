@@ -1,5 +1,7 @@
-import tasks.Task;
-import tasks.TaskFactory;
+package com.tkluza.hackerrank;
+
+import com.tkluza.hackerrank.tasks.Task;
+import com.tkluza.hackerrank.tasks.TaskFactory;
 
 import java.util.List;
 

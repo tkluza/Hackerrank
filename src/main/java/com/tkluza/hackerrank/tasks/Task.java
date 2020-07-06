@@ -1,4 +1,4 @@
-package tasks;
+package com.tkluza.hackerrank.tasks;
 
 public interface Task {
 
