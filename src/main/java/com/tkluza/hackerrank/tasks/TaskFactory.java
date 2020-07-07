@@ -1,6 +1,7 @@
 package com.tkluza.hackerrank.tasks;
 
 import com.tkluza.hackerrank.tasks.array.ArrayDS;
+import com.tkluza.hackerrank.tasks.hash.RansomNote;
 import com.tkluza.hackerrank.tasks.string.SherlockAndTheValidString;
 import com.tkluza.hackerrank.tasks.warm_up.JumpingOnTheClouds;
 
@@ -34,5 +35,14 @@ public class TaskFactory {
         stringTasks.add(new SherlockAndTheValidString());
 
         return stringTasks;
+    }
+
+    public static List<Task> getAllHashTasks() {
+        System.out.println("Hash Tasks");
+
+        List<Task> hashTasks = new ArrayList<>();
+        hashTasks.add(new RansomNote());
+
+        return hashTasks;
     }
 }

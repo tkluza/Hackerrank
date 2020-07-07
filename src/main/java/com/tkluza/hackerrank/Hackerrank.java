@@ -18,5 +18,8 @@ public class Hackerrank {
 
         List<Task> stringTasks = TaskFactory.getAllStringTasks();
         stringTasks.forEach(Task::test);
+
+        List<Task> hashTasks = TaskFactory.getAllHashTasks();
+        hashTasks.forEach(Task::test);
     }
 }
