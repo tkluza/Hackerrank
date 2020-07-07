@@ -1,6 +1,7 @@
 package com.tkluza.hackerrank.tasks;
 
 import com.tkluza.hackerrank.tasks.array.ArrayDS;
+import com.tkluza.hackerrank.tasks.string.SherlockAndTheValidString;
 import com.tkluza.hackerrank.tasks.warm_up.JumpingOnTheClouds;
 
 import java.util.ArrayList;
@@ -24,5 +25,14 @@ public class TaskFactory {
         warmUpTasks.add(new JumpingOnTheClouds());
 
         return warmUpTasks;
+    }
+
+    public static List<Task> getAllStringTasks() {
+        System.out.println("String Tasks");
+
+        List<Task> stringTasks = new ArrayList<>();
+        stringTasks.add(new SherlockAndTheValidString());
+
+        return stringTasks;
     }
 }

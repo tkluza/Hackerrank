@@ -15,5 +15,8 @@ public class Hackerrank {
 
         List<Task> arrayTasks = TaskFactory.getAllArrayTasks();
         arrayTasks.forEach(Task::test);
+
+        List<Task> stringTasks = TaskFactory.getAllStringTasks();
+        stringTasks.forEach(Task::test);
     }
 }
